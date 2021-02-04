@@ -1,0 +1,25 @@
+{
+    "table creation" : {
+        "prefix" : ["table"],
+        "body" : [
+            "| ${1:header} | ${2:header} |",
+            "| --- | --- |",
+            "| ${3:element} | ${4:element} |"
+        ],
+        "description" : "create a table"
+    },
+    "bold text" : {
+        "prefix" : ["bb"],
+        "body" : ["**${1:text}**"],
+        "description" : "create bolded string"
+    },
+    "code block" : {
+        "prefix" : ["code"],
+        "body" : [
+            "```${1:lang}",
+            "${2:code-block}",
+            "```"
+        ],
+        "description" : "markdown code block"
+    }
+}
