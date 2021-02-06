@@ -13,6 +13,11 @@
         "body" : ["**${1:text}**"],
         "description" : "create bolded string"
     },
+    "creating link" : {
+        "prefix" : ["link"],
+        "body" : ["[${1:text}](${2:url/path})"],
+        "description" : "make a link to a local file or web"
+    },
     "code block" : {
         "prefix" : ["code"],
         "body" : [
