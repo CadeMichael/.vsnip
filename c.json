@@ -1,0 +1,12 @@
+{
+    "main function" : {
+        "prefix": ["main"],
+        "body": [
+            "int main() ",
+            "{",
+            "\treturn ${1:value};",
+            "}"
+        ],
+        "description": "main function of project"
+    }
+}
