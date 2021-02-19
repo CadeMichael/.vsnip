@@ -8,5 +8,13 @@
             "}"
         ],
         "description": "main function of project"
+    },
+    "iostream & namespace std" : {
+        "prefix" : ["std"],
+        "body" : [
+            "#include <iostream>",
+            "using namespace std;"
+        ],
+        "description" : "getting standard input / output setup"
     }
 }
